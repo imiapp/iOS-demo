@@ -1,0 +1,6 @@
+framework module BuildIMISdk {
+  umbrella header "BuildIMISdk.h"
+
+  export *
+  module * { export * }
+}

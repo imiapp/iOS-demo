@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PoliceLoginViewController">
+            <connections>
+                <outlet property="mobileLable" destination="m1R-Bt-VJS" id="CnI-g0-OFc"/>
+                <outlet property="userNameLable" destination="K8Q-cB-AdW" id="BHw-as-71T"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="获取登录信息如下:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="69d-2h-3Sc">
+                    <rect key="frame" x="30" y="100" width="315" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="m2d-sI-sAf"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K8Q-cB-AdW">
+                    <rect key="frame" x="30" y="170" width="315" height="30"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="hBz-HC-Xn6"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m1R-Bt-VJS">
+                    <rect key="frame" x="30" y="210" width="315" height="30"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="qZF-WQ-ZG8"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.86274509803921573" green="0.96078431372549022" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <constraints>
+                <constraint firstItem="K8Q-cB-AdW" firstAttribute="top" secondItem="69d-2h-3Sc" secondAttribute="bottom" constant="30" id="C2b-24-TlG"/>
+                <constraint firstAttribute="trailing" secondItem="69d-2h-3Sc" secondAttribute="trailing" constant="30" id="Tuo-Iw-2Xg"/>
+                <constraint firstItem="69d-2h-3Sc" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="100" id="cwQ-mj-YdP"/>
+                <constraint firstItem="m1R-Bt-VJS" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="30" id="hAj-3U-FLA"/>
+                <constraint firstItem="m1R-Bt-VJS" firstAttribute="top" secondItem="K8Q-cB-AdW" secondAttribute="bottom" constant="10" id="hJ3-v5-JDc"/>
+                <constraint firstAttribute="trailing" secondItem="m1R-Bt-VJS" secondAttribute="trailing" constant="30" id="lnj-J2-SNN"/>
+                <constraint firstItem="69d-2h-3Sc" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="30" id="nQO-C1-Yjf"/>
+                <constraint firstAttribute="trailing" secondItem="K8Q-cB-AdW" secondAttribute="trailing" constant="30" id="q5C-9o-Ke1"/>
+                <constraint firstItem="K8Q-cB-AdW" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="30" id="rRO-3h-WNn"/>
+            </constraints>
+            <point key="canvasLocation" x="120" y="-28"/>
+        </view>
+    </objects>
+</document>
