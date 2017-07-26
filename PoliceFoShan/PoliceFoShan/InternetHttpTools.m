@@ -19,9 +19,9 @@
 #define VWURLFormal(args) ([NSString stringWithFormat:@"http://172.16.192.101:9110/imi/%@",args])
 //通用接口
 /** 获取topicID */
-#define VWCommonTopicIdURL VWURLTest(@"createChannel")
+#define VWCommonTopicIdURL VWURLFormal(@"createChannel")
 /** pull获取用户数据 */
-#define VWLoginPullDataURL VWURLTest(@"getAuthorizationInfo")
+#define VWLoginPullDataURL VWURLFormal(@"getAuthorizationInfo")
 
 @interface InternetHttpTools ()
 /** 请求管理者类*/
