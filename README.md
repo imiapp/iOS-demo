@@ -1,7 +1,7 @@
 # iOS-demo
 iOS demo using IMI SDK
-### demo中设置了正式环境的api，需要配合IMI的正式版本就行调试。
-    appstore商城中搜索IMI进行下载或扫描下方二维码。
+### demo中设置了正式环境的api，需要配合IMI的正式版本进行调试。
+    appstore商城中搜索imi进行下载或扫描下方二维码。
 
 
 #### 使用说明
