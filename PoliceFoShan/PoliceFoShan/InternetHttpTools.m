@@ -13,10 +13,10 @@
 #define VWWeakSelf __weak typeof(self) weakSelf = self;
 //测试环境
 /** mapping servers */
-#define VWURLTest(args) ([NSString stringWithFormat:@"http://172.16.192.101:9100/imi/%@",args])
+#define VWURLTest(args) ([NSString stringWithFormat:@"http://test.service.azurenet.cn:9100/imi/%@",args])
 //正式环境
 /** mapping servers */
-#define VWURLFormal(args) ([NSString stringWithFormat:@"http://172.16.192.101:9110/imi/%@",args])
+#define VWURLFormal(args) ([NSString stringWithFormat:@"http://test.service.azurenet.cn:9110/imi/%@",args])
 //通用接口
 /** 获取topicID */
 #define VWCommonTopicIdURL VWURLFormal(@"createChannel")
