@@ -56,7 +56,8 @@ typedef NSString *_Nullable(^createChannelBlock)();
 
 /* 4.授权方法
  * name:第三方app的名称
- * type:此时可以不传，默认推送授权数据，后续会推出其他功能，根据第三方传递不同的type值，推送不同的信息。
+ * type:用于区分授权类型,目前支持类型为:1.type = "snsapi_idcard,snsapi_info"，代表获取登录信息和身份证信息。2.type="snsapi_idcard",代表只获取身份证信息;
+   后续会推出其他功能，根据第三方传递不同的type值，推送不同的信息。
  * createChannelReq:有返回值的block，需要第三方实现获取topicId的函数，返回给IMI。
  * @return handler:返回IMI授权的结果，如果result=success，代表IMI推送授权数据成功，第三方app此时从自己服务器就能获取到授权数据。
  */
