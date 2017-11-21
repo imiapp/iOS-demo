@@ -11,6 +11,7 @@
 		CE2D6DA01E84C639007EE95B /* InternetworkHomeViewControler.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2D6D9E1E84C639007EE95B /* InternetworkHomeViewControler.m */; };
 		CE2D6DA11E84C639007EE95B /* InternetworkHomeViewControler.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE2D6D9F1E84C639007EE95B /* InternetworkHomeViewControler.xib */; };
 		CE2D6DA41E84C71E007EE95B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2D6DA21E84C71E007EE95B /* Main.storyboard */; };
+		CE50B1311FC3C6FB00E43897 /* BuildIMISdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE50B1301FC3C6FB00E43897 /* BuildIMISdk.framework */; };
 		CE5326B11E83ACE9007BC27D /* InternetworkLoginViewControler.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5326AF1E83ACE9007BC27D /* InternetworkLoginViewControler.m */; };
 		CE5326B21E83ACE9007BC27D /* InternetworkLoginViewControler.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE5326B01E83ACE9007BC27D /* InternetworkLoginViewControler.xib */; };
 		CE6BB29E1E9742B60050114D /* InternetworkAuthoriseViewControler.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB29C1E9742B60050114D /* InternetworkAuthoriseViewControler.m */; };
@@ -34,7 +35,6 @@
 		CE843F4A1EFB610900F3CB62 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CE843F391EFB610900F3CB62 /* UIWebView+AFNetworking.m */; };
 		CE8981851F2053DA00123F3A /* InternetHttpsessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8981841F2053DA00123F3A /* InternetHttpsessionManager.m */; };
 		CE8981881F20551300123F3A /* InternetHttpTools.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8981871F20551300123F3A /* InternetHttpTools.m */; };
-		CEB63F751F25CF5D0026ABAB /* BuildIMISdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB63F741F25CF5D0026ABAB /* BuildIMISdk.framework */; };
 		CEE1F4E91E712EE300C3C823 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE1F4E81E712EE300C3C823 /* main.m */; };
 		CEE1F4EC1E712EE300C3C823 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE1F4EB1E712EE300C3C823 /* AppDelegate.m */; };
 		CEE1F4F41E712EE300C3C823 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE1F4F31E712EE300C3C823 /* Assets.xcassets */; };
@@ -74,6 +74,7 @@
 		CE2D6D9E1E84C639007EE95B /* InternetworkHomeViewControler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InternetworkHomeViewControler.m; sourceTree = "<group>"; };
 		CE2D6D9F1E84C639007EE95B /* InternetworkHomeViewControler.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InternetworkHomeViewControler.xib; sourceTree = "<group>"; };
 		CE2D6DA31E84C71E007EE95B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE50B1301FC3C6FB00E43897 /* BuildIMISdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuildIMISdk.framework; sourceTree = "<group>"; };
 		CE5326AE1E83ACE9007BC27D /* InternetworkLoginViewControler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InternetworkLoginViewControler.h; sourceTree = "<group>"; };
 		CE5326AF1E83ACE9007BC27D /* InternetworkLoginViewControler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InternetworkLoginViewControler.m; sourceTree = "<group>"; };
 		CE5326B01E83ACE9007BC27D /* InternetworkLoginViewControler.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InternetworkLoginViewControler.xib; sourceTree = "<group>"; };
@@ -119,7 +120,6 @@
 		CE8981841F2053DA00123F3A /* InternetHttpsessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InternetHttpsessionManager.m; sourceTree = "<group>"; };
 		CE8981861F20551300123F3A /* InternetHttpTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InternetHttpTools.h; sourceTree = "<group>"; };
 		CE8981871F20551300123F3A /* InternetHttpTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InternetHttpTools.m; sourceTree = "<group>"; };
-		CEB63F741F25CF5D0026ABAB /* BuildIMISdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuildIMISdk.framework; sourceTree = "<group>"; };
 		CEE1F4E41E712EE300C3C823 /* PoliceFoShan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PoliceFoShan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEE1F4E81E712EE300C3C823 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CEE1F4EA1E712EE300C3C823 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -151,7 +151,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEB63F751F25CF5D0026ABAB /* BuildIMISdk.framework in Frameworks */,
+				CE50B1311FC3C6FB00E43897 /* BuildIMISdk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,7 +233,7 @@
 		CEE1F4DB1E712EE300C3C823 = {
 			isa = PBXGroup;
 			children = (
-				CEB63F741F25CF5D0026ABAB /* BuildIMISdk.framework */,
+				CE50B1301FC3C6FB00E43897 /* BuildIMISdk.framework */,
 				CE843F141EFB610900F3CB62 /* AFNetworking */,
 				CEE1F8FD1E7A78F300C3C823 /* SVProgressHUD */,
 				CEE1F4E61E712EE300C3C823 /* PoliceFoShan */,
